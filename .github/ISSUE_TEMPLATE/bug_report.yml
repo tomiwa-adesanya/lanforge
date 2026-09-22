@@ -1,0 +1,79 @@
+name: Bug report
+description: Something in LanForge is not working as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please fill in as much as you can so the problem can be reproduced.
+  - type: input
+    id: version
+    attributes:
+      label: LanForge version
+      description: Shown in the sidebar and in Settings > About.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows 11
+        - Windows 10
+        - Ubuntu
+        - Other Linux
+    validations:
+      required: true
+  - type: dropdown
+    id: package
+    attributes:
+      label: How did you install it?
+      options:
+        - Windows installer (setup.exe)
+        - Windows portable (zip)
+        - Linux .deb
+        - Linux portable (tar.xz)
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of LanForge?
+      options:
+        - Network Scanner
+        - My Servers (sharing a folder)
+        - Sending or receiving files
+        - System tray / background mode
+        - Start at login
+        - Settings
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: network
+    attributes:
+      label: Network details (for scanning, sharing or transfers)
+      description: Wi-Fi or wired? Are both devices on the same network? For transfers, what is the other device and its LanForge version?
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error messages or screenshots
+      description: Paste any error text, or drag screenshots here.
