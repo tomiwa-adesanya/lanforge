@@ -21,7 +21,7 @@
 ## See it in 75 seconds
 
 <p align="center">
-  <a href="https://youtu.be/YOUTUBE_VIDEO_ID"><img src="assets/film-thumbnail.png" alt="Watch the LanForge film on YouTube" width="720"></a>
+  <a href="https://youtu.be/cA528cvTrV4"><img src="assets/film-thumbnail.png" alt="Watch the LanForge film on YouTube" width="720"></a>
 </p>
 
 <p align="center"><a href="https://youtu.be/cA528cvTrV4">Watch the LanForge film on YouTube</a></p>
